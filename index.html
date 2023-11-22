@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portifolio</title>
+    <link rel="icon" href="./img/israIcon.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body oncopy="return false" oncut="return false" onpaste="return false">
+    <header class="header headerActive" id="header">
+
+        <div class="logo-div">
+            <a href="#home">
+                <h1 class="logo">AI<span>.<i class="uil uil-brain"></i></span></h1>
+            </a>
+        </div>
+
+        <div class="navBar" id="nav-Bar">
+            <ul class="navList">
+                <li class="navItem">
+                    <a href="#about" class="navLink"> <span class="number">1.</span> About</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#skills" class="navLink"> <span class="number">2.</span> Skills</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#projects" class="navLink"> <span class="number">3.</span> Projects</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#contact" class="navLink"> <span class="number">5.</span> Contact</a>
+                </li>
+
+                <div class="closeIcon" id="closeIconID">
+                    <i class='bx bxs-x-circle icon closeIc'></i>
+                </div>
+            </ul>
+
+            <div class="resumeDiv">
+                <a href="#Publication" class="resumeBtn">Publication</a>
+            </div>
+        </div>
+
+ <div class="navToggle" id="toggleId">
+            <i class="uil uil-list-ui-alt toggleIcon"></i>
+        </div>
+
+    </header>
+    <div class=" col leftCol">
+        <div class="divIcons">
+            <div>
+                <a href="#" target="_blank"> <i class="uil uil-linkedin-alt leftColIcon" ></i></a>
+            </div>
+            <div>
+                <a href="#" target="_blank"><i class="uil uil-github-alt leftColIcon"></i></a>
+
+            </div>
+            <div>
+                <a href="#" target="_blank"> <i class="uil uil-twitter-alt leftColIcon"></i></a>
+
+            </div>
+
+        </div>
+        <div class="divLine">
+
+        </div>
+
+    </div>
+
+    <div class=" col rightCol">
+        <div class="emailDiv">
+            ahmad@gmail.com
+
+        </div>
+        <div class="rightdivLine">
+
+        </div>
+    </div>
+
+    <!-- Body Section -->
+    <div class="bodyContainer">
+        <!-- Home section -->
+        <section class="home section" id="home">
+            <div class="container">
+                <div class="content">
+
+                    <div class="contentText">
+                        <h6 class="introTxt">Hi, my name is</h6>
+
+                        <h1 class="name">Ahmad Raza</h1>
+
+                        <h3 class="subIntro">I am Software Engineer & AI ML Enthusiast </h3>
+
+                        <p class="homeP"> Experience includes using algorithms and data mining for my own personal projects while at IBM India. Relevant skills include Machine Learning, Data Structures, and Debugging.</p>
+                    </div>
+
+                    <div class="contentBtn">
+                        <a href="#contact">Get In touch <i class="uil uil-message Icon"></i></a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+<div class="scrollDiv">
+                    <i class="uil uil-mouse-alt MouseIcon"></i>
+                    <a href="#about">
+                        <h6 class="scroll">Scroll Down</h6>
+                    </a>
+                    <i class="uil uil-angle-double-down icon"></i>
+                </div>
+        <!-- About section -------------------------------------------------->
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="content">
+                    <div class="sectionTitle">
+                        <span class="titleNumber">01 . </span>
+                        <h5 class="titleText">About Me
+                            <div class="underline"><span></span></div>
+                        </h5>
+                    </div>
+
+                    <div class="grid">
+                        <div class="cta">
+						<h4 class="ctaDescription">Experienced Software Engineer with a proficient level in developing machine learning solutions for a diverse clientele. 2+ years of industry experience includes developing a customer segmentation algorithm for 32% increase in company revenue. Intermediate skills include Predictive Modelling, Data Mining, and Quantitative Analysis. </h4>
+                            <br>
+							<h4 class="ctaDescription">Experience includes using algorithms and data mining for my own personal projects while at IBM. Relevant skills include Machine Learning, Data Structures, and Debugging.</h4>
+                            <div class="aboutBtn">
+                                <a download="" href="#about">Download CV <i class="uil uil-import downloadIcon"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="lower">
+                            <div class="aboutImgDiv">
+                                <img src="ar office.jpg" alt="ai Image" class="aboutImg">
+                            </div>
+
+                            <div class="voiceNote">
+                                <audio id="player" src="./audio/my.mp3"></audio>
+                                <div class="player">
+                                    <div class="controls">
+                                        <i class="uil uil-play  " id="playIcon"></i>
+                                    </div>
+                                    <div class="audioInfo">
+                                        <span>Voice Intro</span>
+                                        <div class="bar">
+                                            <div id="progress"></div>
+                                        </div>
+                                    </div>
+                                    <div id="current">
+                                        <span>0:00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section  -->
+
+        <section class="skill section" id="skills">
+            <div class="container">
+                <div class="sectionTitle">
+                    <span class="titleNumber">02 .</span>
+                    <h5 class="titleText">My Skills
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+
+                <div class="skillsContent ">
+                    <!-- skill one -->
+                    <div class="skillInfo">
+                        <div class="skillInfoHeader">
+                            <h1 class="skillTitle">Machine learning</h1>
+                            <span class="skillSubTotal">6 months experience</span>
+                        </div>
+                        <div class="skillImage">
+                            <img src="tens.png" alt="" class="skillImageIcon">
+                            <img src="pyt.png" alt="" class="skillImageIcon">
+                            <img src="python.png" alt="" class="skillImageIcon">
+                            
+
+                        </div>
+                    </div>
+
+                    <!-- skill-Two -->
+                    <div class="skillInfo">
+                        <div class="skillInfoHeader">
+                            <h1 class="skillTitle">brain inspired</h1>
+                            <span class="skillSubTotal">6 months experience</span>
+                        </div>
+                        <div class="skillImage">
+                            <img src="k.png" alt="" class="skillImageIcon">
+                            <img src="mnet.png" alt="" class="skillImageIcon">
+                            <img src="guron.png" alt="" class="skillImageIcon">
+                        </div>
+                    </div>
+                    <!-- Skill-Three -->
+                    <div class="skillInfo">
+                        <div class="skillInfoHeader">
+                            <h1 class="skillTitle">Other Skills</h1>
+                            <span class="skillSubTotal">2 year experience</span>
+                        </div>
+                        <div class="skillImage">
+						<img src="javascript.png" alt="" class="skillImageIcon">
+                            
+                            <img src="linux.png" alt="" class="skillImageIcon">
+                            <img src="github.png" alt="" class="skillImageIcon">
+							<img src="react.png" alt="" class="skillImageIcon">
+							<img src="mathlab.png" alt="" class="skillImageIcon">
+                        </div>
+                    </div>
+
+                </div>
+                <span class="skillDescription">
+                    Our human brain is made up of neural networks and when we talk about creating brain inspired AI, we basically refer to the process of creating artificial neural networks that work the way the human brain works, fundamentally. Capabilities can be segmented into different buckets, each of them well approximated with the data.AI started with the original goal of what we now call artificial general intelligence. 
+                </span>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION  ---------------------------------------------------->
+
+        <section class=" project section" id="projects">
+            <div class="container">
+                <div class="sectionTitle">
+                    <span class="titleNumber">03 . </span>
+                    <h5 class="titleText">My Projects
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+
+                <div class="contentHeader">
+
+                    <span class="projectDescription">
+                        Here are some of the projects with in my experience.
+                    </span>
+                </div>
+
+                <!-- FRONTEND BOXES---------------------------------------------------- -->
+                <div class="boxes ">
+
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div>
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="product.jpg" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    Product Recommendation Systems
+                                </h2>
+                                <p>Recommender systems have become more prevalent in our lives as a result of the emergence of Youtube, Amazon, Netflix, and other similar web services. </p>
+                                <div class="software">
+                                    <span>Python</span>
+                                    <span>python</span>
+                                    <span>Linux</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div>
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="plagiarism_1.jpg" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    Plagiarism Analyzer
+                                </h2>
+                                <p>It can be tough to tell which content is plagiarised and which is not at times. Authors of blog postings should check to see if their work has been stolen and put elsewhere.</p>
+                                <div class="software">
+
+                                    <span>Python</span>
+                                    <span>python</span>
+                                    <span>Linux</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div>
+
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="bard.png" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    Prediction Bird Species
+                                </h2>
+                                <p>Manual classification of birds can be done by topic experts, but it has become a hard and time-consuming process due to the vast accumulation of data </p>
+                                <div class="software">
+                                    <span>Python</span>
+                                    <span>Linux</span>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div>
+
+
+
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="face.png" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    Face Recognition
+                                </h2>
+                                <p>Facial recognition is a technique for recognizing or verifying a person’s identification by looking at their face.</p>
+                                <div class="software">
+                                    <span>Python</span>
+                                    <span>Pytourch</span>
+                                    <span>Linux</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div>
+
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="mask.png" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                   Mask Detection
+                                </h2>
+                                <p>Face mask detection is the process of determining whether or not someone is wearing a mask</p>
+                                <div class="software">
+                                    <span>Python</span>
+                                    <span>Pytourch</span>
+                                    <span>ATOM</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div>
+
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="self.jpg" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    AI Self-driving cars
+                                </h2>
+                                <p>Artificial intelligence algorithms enable self-driving cars. They allow an automobile to collect data about its surroundings from cameras and other sensors, analyze it, and decide what actions to take.
+                                    <div class="software">
+                                        <span>python</span>
+                                        <span>pytourch</span>
+                                        <span>Linux</span>
+                                    </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="projectFooter">
+                    <a href="#">SEE MORE</a>
+                </div>
+            </div>
+
+        </section>
+		
+		
+	<!-- Publication SECTION  ---------------------------------------------------->
+
+        <section class=" project section" id="Publication">
+            <div class="container">
+                <div class="sectionTitle">
+                    <span class="titleNumber">04 . </span>
+                    <h5 class="titleText">My Publication
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+
+                <div class="contentHeader">
+
+                    <span class="projectDescription">
+                        Research is seeing what everybody else has seen and thinking what nobody else has thought. - Albert Szent-Györgyi 
+                    </span>
+                </div>
+
+                <!-- FRONTEND BOXES---------------------------------------------------- -->
+                <div class="boxes ">
+
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#" class="published" target="_blank"><span>published</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-brain"></i></a>
+                            </div>
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="3.jpg" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    Lorem Ipsum
+                                </h2>
+                                <p>Lorem Ipsum </p>
+                                <div class="software">
+                                    <span>Lorem Ipsum</span>
+                                    <span>Lorem Ipsum</span>
+                                   
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#"  class="published" target="_blank"><span>published</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-brain"></i></a>
+                            </div>
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="2.jpg" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                   Lorem Ipsum
+                                </h2>
+                                <p>Lorem Ipsum</p>
+                                <div class="software">
+
+                                    <span>Lorem Ipsum</span>
+                                    <span>Lorem Ipsum</span>
+                                    
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="box">
+
+                        <div class="webContent">
+
+                            <div class="webContentTop">
+                                <div>
+
+                                    <a href="#" class="wrapperLink Indicator" target="_blank"></a>
+                                </div>
+                                <a href="#"  class="published" target="_blank"><span>published</span></a>
+                                <a href="#" class="wrapperLink" target="_blank"><i class="uil uil-brain"></i></a>
+                            </div>
+
+
+                            <div class="contentImg">
+                                <a href="#" target="_blank"><img src="1.jpg" class="contentImage"></a>
+                            </div>
+
+                            <div class="wrapperText">
+                                <h2 class="title">
+                                    Lorem Ipsum
+                                </h2>
+                                <p>Lorem Ipsum </p>
+                                <div class="software">
+                                    <span>Lorem Ipsum</span>
+                                    <span>Lorem Ipsum</span>
+                                   
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+
+                
+                </div>
+
+                <div class="projectFooter">
+                    <a href="#">SEE MORE</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CONTACT SECTION ------------------------- -->
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="sectionTitle">
+                    <span class="titleNumber">05 . </span>
+                    <h5 class="titleText">Contact Me
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="contactContent grid">
+                <div class="contactTop">
+                    <div>
+                        <i class="uil uil-incoming-call contactIcon"></i>
+                        <span>
+                               <h2 class="contactTitle">Wtsp & Call Me</h2>
+                               <span class="contactDesc">
+                                   +918 1023 26415
+                               </span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <i class="uil uil-envelope-download contactIcon"></i>
+                        <span>
+                           <h2 class="contactTitle">Email </h2>
+                           <span class="contactDesc">
+                             ahmad@gmail.com
+                           </span>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="uil uil-map-marker contactIcon"></i>
+                        <span>
+                           <h2 class="contactTitle">Location </h2>
+                           <span class="contactDesc">
+                              Malta, Europe
+                           </span>
+                        </span>
+                    </div>
+
+                </div>
+
+                <form action="#" method="POST" id="contactForm">
+                    <div class="formTop">
+                        <span class="field">
+                       <label for="name">Full Name</label>
+                       <input type="text" id="name" required name="Full Name">
+                       <input type="hidden" name="_subject" value="Portifolio Message!">
+                      </span>
+
+                        <span class="field">
+                       <label for="email">Email</label>
+                       <input type="email" id="email" name="Email" required>
+                       <input type="hidden" name="_next" value="">
+                       <input type="hidden" name="_captcha" value="false">
+                      </span>
+                    </div>
+
+
+
+                    <textarea name="Message" id="message" cols="30" rows="10" required placeholder="Your Message"></textarea>
+
+                    <button type="submit">Send <i class="uil uil-message "></i></button>
+                </form>
+
+            </div>
+
+        </section>
+
+        <div class="mobileIcons">
+            <div>
+                <a href="#" target="_blank"> <i class="uil uil-linkedin-alt leftColIcon" ></i></a>
+
+            </div>
+            <div>
+                <a href="#" target="_blank"><i class="uil uil-github-alt leftColIcon"></i></a>
+
+            </div>
+            <div>
+                <a href="#" target="_blank"> <i class="uil uil-twitter-alt leftColIcon"></i></a>
+
+            </div>
+        </div>
+
+        <!-- FOOTER SECTION ------------------------------------------>
+        <section class="section">
+            <div class="footer">
+                <span>Designed and developed by<br> Ahmad Raza - 2025</span>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
